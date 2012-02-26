@@ -5,23 +5,70 @@
     android:orientation="vertical" >
 
     <TextView
+        android:id="@+id/tvDisplay"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:gravity="center"
+        android:text="Your total is:        0"
+        android:textSize="40dp" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout1"
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:layout_gravity="center"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/bSub"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_gravity="center"
+        android:textSize="35dp" />
+
+
+
+
+    <Button
+        android:id="@+id/bAddNum"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:text="Increase amount added"
+        android:layout_gravity="center"
+        android:textSize="15dp" />
+
+
+
+    <Button
+        android:id="@+id/bSubNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increase amount subtracted"
+        android:layout_gravity="center"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/tvAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add by: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/tvSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtract by: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/pass"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_weight="0.48" >
-
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="green"
-            android:textSize="15dp" />
-
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
 
 </LinearLayout>
