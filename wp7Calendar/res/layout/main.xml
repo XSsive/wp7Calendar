@@ -12,24 +12,36 @@
         android:text="Your total is:        0"
         android:textSize="40dp" />
 
-    <Button
-        android:id="@+id/bAdd"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="+"
-        android:layout_gravity="center"
-        android:textSize="35dp" />
-
-    <Button
-        android:id="@+id/bSub"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="-"
-        android:layout_gravity="center"
-        android:textSize="35dp" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_gravity="center">
 
 
 
+
+
+
+        <Button
+            android:id="@+id/bAdd"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+"
+            android:textSize="35dp" />
+
+
+
+
+        <Button
+            android:id="@+id/bSub"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="-"
+            android:textSize="35dp" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/bAddNum"
